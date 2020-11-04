@@ -1,0 +1,18 @@
+#scrollblock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 3rem;
+
+  width: 100%;
+
+  animation: blink 1.3s linear infinite;
+}
+
+@keyframes blink{
+  0%{ opacity: 0.3; }
+  50%{ opacity: 1; }
+  100%{ opacity: 0.3; }
+  }

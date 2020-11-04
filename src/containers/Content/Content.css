@@ -1,0 +1,33 @@
+#content { 
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  position: relative;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: calc(100vh - 4rem - 3rem);
+
+  font-family: "Roboto";
+}
+
+#content > #scrollable {
+  width: 100%;
+  height: auto;
+
+  overflow-y: scroll;
+}
+
+
+#content > #scrollable > div {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: calc(100vh - 4rem - 3rem);
+  
+  align-items: stretch;
+}

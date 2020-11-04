@@ -1,0 +1,18 @@
+#showcase {
+  display: flex;
+  flex-direction: column;
+
+  align-items: stretch;
+  justify-content: center;
+
+  font-weight: 100;
+}
+
+#showcase > div {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+
+  margin: 1rem 0;
+}

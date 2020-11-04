@@ -1,0 +1,46 @@
+#studies {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  font-weight: 100;
+}
+
+#studies .RSPBprogressBar {
+  height: 90px;
+  background: none !important;
+}
+
+#studies .RSPBprogression {
+  margin-top: 63px;
+  height: 5px;
+  width: calc(100% + 20%);
+}
+
+#studies .RSPBstep .column {
+  align-items: center;
+  cursor: pointer;
+}
+
+#studies .RSPBstep .pointing {
+  margin-right: 0;
+}
+
+#studies .RSPBstep .circular {
+  width: 30px;
+  height: 30px;
+  margin-left: 0;
+  border: 3px solid #dddddd;
+  background-color: #282c34;
+}
+
+#studies .RSPBstep .circular.active {
+  background-color: #dddddd;
+}
+
+#studies .card-section {
+  margin-top: 2rem;
+  width: 100%;
+}

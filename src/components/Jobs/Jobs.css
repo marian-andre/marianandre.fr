@@ -1,0 +1,68 @@
+#jobs {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  font-weight: 100;
+}
+
+#jobs .RSPBprogressBar {
+  height: 90px;
+  background: none !important;
+}
+
+#jobs .RSPBprogression {
+  margin-top: 63px;
+  height: 5px;
+  width: calc(100% + 20%);
+}
+
+#jobs .RSPBstep .column {
+  align-items: center;
+  cursor: pointer;
+}
+
+#jobs .RSPBstep .pointing {
+  margin-right: 0;
+}
+
+#jobs .RSPBstep .circular {
+  width: 30px;
+  height: 30px;
+  margin-left: 0;
+  border: 3px solid #dddddd;
+  background-color: #282c34;
+}
+
+#jobs .RSPBstep .circular.active {
+  background-color: #dddddd;
+}
+
+#jobs .jobProgress .RSPBprogressBar {
+  height: 30px;
+  background: none !important;
+}
+
+#jobs .jobProgress .RSPBprogression {
+  margin-top: 0px;
+  height: 30px;
+  width: calc(100% + 20%);
+}
+
+#jobs .jobProgress .RSPBstep {
+  /* position: relative; */
+}
+
+#jobs .jobProgress .RSPBstep .column {
+  align-items: center;
+  cursor: pointer;
+
+  font-weight: bold;
+}
+
+#jobs .card-section {
+  margin-top: 2rem;
+  width: 100%;
+}

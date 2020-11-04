@@ -1,0 +1,36 @@
+#App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  
+  text-align: center;
+  
+  background-color: #282c34;
+  color: #dddddd;
+}
+
+.title-xs {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.title-s {
+  font-size: 1.5rem;
+}
+.title-m {
+  font-size: 2rem;
+}
+.title-l {
+  font-size: 3rem;
+}
+.title-xl {
+  font-size: 4rem;
+}
+.title-xxl {
+  font-size: 5rem;
+}
+.title-xxxl {
+  font-size: 6rem;
+}
