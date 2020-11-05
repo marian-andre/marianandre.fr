@@ -84,12 +84,18 @@ div#root {
   flex-direction: row;
 
   justify-content: center;
-
-  width: 100%;
 }
 
 .relative {
   position: relative;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.full-width { 
+  width: 100%;
 }
 
 .mt1 { margin-top: 1rem; }

@@ -1,9 +1,10 @@
 import React from 'react';
 
-import Me from '../../components/Me';
-import Portfolio from '../../components/Portfolio';
 import Showcase from '../../components/Showcase';
 import Spacer from '../../components/Spacer';
+import Me from '../../components/Me';
+import Skills from '../../components/Skills';
+import Portfolio from '../../components/Portfolio';
 import Jobs from '../../components/Jobs';
 import Studies from '../../components/Studies';
 
@@ -18,6 +19,10 @@ function Content() {
         <Spacer />
 
         <Me />
+
+        <Spacer />
+
+        <Skills />
 
         <Spacer />
 

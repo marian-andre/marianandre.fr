@@ -91,9 +91,10 @@ class Portfolio extends PureComponent {
         <div className="row mt2">
           <div className="column protfolio-projects-list mx4">
             {rowProjects.map((p, idx1) => (
-              <div className="row portoflio-projects">
+              <div key={idx1} className="row portoflio-projects">
                 {p.map((project, idx2) => (
                   <div
+                    key={`${idx1}-${idx2}`}
                     className={`portoflio-project ${!project || !project.image ? 'empty-project' : ''} ${idx1 * 2 + idx2 === currentProjectId ? 'current-portfolio' : ''}`}
                     onClick={() => this.changeProject(idx1 * 2 + idx2)}
                   >

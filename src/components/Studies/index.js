@@ -113,7 +113,7 @@ class Studies extends PureComponent {
         <div className="row section-title">
           <div className="title-l">Studies</div>
         </div>
-        <div className="row">
+        <div className="row full-width">
           <ProgressBar
             percent={100}
             filledBackground="linear-gradient(to right, #282c34, #282c34 3%, #dddddd 6%, #dddddd 94%, #282c34 97%, #282c34)"

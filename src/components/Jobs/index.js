@@ -227,7 +227,7 @@ class Jobs extends PureComponent {
         <div className="row section-title">
           <div className="title-l">Jobs</div>
         </div>
-        <div className="row">
+        <div className="row full-width">
           <ProgressBar
             percent={100}
             filledBackground="linear-gradient(to right, #282c34, #282c34 3%, #dddddd 6%, #dddddd 94%, #282c34 97%, #282c34)"
@@ -263,7 +263,7 @@ class Jobs extends PureComponent {
           </ProgressBar>
         </div>
         {primaryJobs.length > 0 && (
-          <div className="row jobProgress mt1">
+          <div className="row full-width jobProgress mt1">
             <ProgressBar
               percent={100}
               filledBackground={computeBackgoundProgressBar(primaryJobs, step)}
@@ -287,7 +287,7 @@ class Jobs extends PureComponent {
           </div>
         )}
         {secondaryJobs.length > 0 && (
-          <div className="row jobProgress mt1">
+          <div className="row full-width jobProgress mt1">
             <ProgressBar
               percent={100}
               filledBackground={computeBackgoundProgressBar(secondaryJobs, step)}

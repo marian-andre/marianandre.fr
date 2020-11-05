@@ -1,0 +1,15 @@
+#skills {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: stretch;
+
+  font-weight: 100;
+
+  width: 300px;
+}
+
+#skills .group-name {
+  width: 300px;
+}
