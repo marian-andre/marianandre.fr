@@ -1,0 +1,62 @@
+#portfolio {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: stretch;
+
+  font-weight: 100;
+}
+
+.portoflio-projects {
+  width: 400px;
+}
+
+.portoflio-project {
+  flex-basis: auto;
+  width: 200px;
+  position: relative;
+}
+
+.portoflio-project .profolio-image {
+  max-width: 200px;
+  max-height: 100px;
+}
+
+.portoflio-project:not(.current-portfolio) .profolio-image {
+  opacity: 0.5;
+}
+
+.portoflio-project:not(.empty-project):not(.current-portfolio):hover {
+  cursor: pointer;
+}
+
+.portoflio-project .project-title {
+  display: none;
+}
+
+.portoflio-project:not(.current-portfolio):hover .project-title {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  width: 200px;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#portfolio .protfolio-project-detail {
+  justify-content: start;
+  flex-grow: 1;
+}
+
+#portfolio .profolio-image-detail {
+  max-width: 800px;
+  max-height: 350px;
+}

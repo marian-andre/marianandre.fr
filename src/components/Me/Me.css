@@ -1,0 +1,25 @@
+#me {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-start;
+  align-items: stretch;
+
+  font-weight: 100;
+}
+
+#me > div:not(:first-child) {
+  flex-grow: 1;
+}
+
+.profile-pic {
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+}
+
+.ui.image.profile-flag {
+  position: absolute;
+  width: 60px;
+}
