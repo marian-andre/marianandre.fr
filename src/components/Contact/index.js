@@ -23,7 +23,7 @@ class Contact extends PureComponent {
       <div id="contact">
         <div className="row title-l">Contact</div>
         <div className="row align-center mt2">
-          <FontAwesomeIcon icon={faLinkedin} size="4x" style={{ color: 'rgb(15, 79, 181)' }} onClick={() => this.openLink('linkedin')} />
+          <FontAwesomeIcon icon={faLinkedin} size="4x" onClick={() => this.openLink('linkedin')} />
           <FontAwesomeIcon icon={faGithubSquare} className="ml1" size="4x" onClick={() => this.openLink('github')} />
         </div>
       </div>
