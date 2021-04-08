@@ -7,6 +7,7 @@ import Skills from '../../components/Skills';
 import Portfolio from '../../components/Portfolio';
 import Jobs from '../../components/Jobs';
 import Studies from '../../components/Studies';
+import Contact from '../../components/Contact';
 
 import './Content.css';
 
@@ -35,6 +36,8 @@ function Content() {
         <Spacer />
 
         <Studies />
+
+        <Contact />
       </div>
     </div>
   );
