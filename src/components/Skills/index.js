@@ -28,6 +28,44 @@ import './Skills.css';
 
 const groupedSkills = [
   {
+    name: 'Management',
+    skills: [
+      {
+        title: (
+          <>
+            People & Team
+            <br />
+            Management
+          </>
+        ),
+        icon: faUsers,
+        color: 'rgb(215, 51, 132)',
+      },
+      {
+        title: (
+          <>
+            Delivery & Planning
+            <br />
+            Management
+          </>
+        ),
+        icon: faCalendarCheck,
+        color: 'rgb(76, 167, 88)',
+      },
+      {
+        title: (
+          <>
+            Crisis Management
+            <br />
+            Communication
+          </>
+        ),
+        icon: faBullhorn,
+        color: 'rgb(255, 0, 0)',
+      },
+    ],
+  },
+  {
     name: 'Fontend',
     skills: [
       {
@@ -93,28 +131,6 @@ const groupedSkills = [
       {
         title: (
           <>
-            People & Team
-            <br />
-            Management
-          </>
-        ),
-        icon: faUsers,
-        color: 'rgb(215, 51, 132)',
-      },
-      {
-        title: (
-          <>
-            Delivery & Planning
-            <br />
-            Management
-          </>
-        ),
-        icon: faCalendarCheck,
-        color: 'rgb(76, 167, 88)',
-      },
-      {
-        title: (
-          <>
             AWS Cloud
             <br />
             Infrastructure
@@ -127,17 +143,6 @@ const groupedSkills = [
         title: 'SEO',
         icon: faSearchDollar,
         color: 'rgb(76, 163, 230)',
-      },
-      {
-        title: (
-          <>
-            Crisis Management
-            <br />
-            Communication
-          </>
-        ),
-        icon: faBullhorn,
-        color: 'rgb(255, 0, 0)',
       },
     ],
   },
