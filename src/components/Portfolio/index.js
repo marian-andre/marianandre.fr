@@ -17,9 +17,9 @@ const projects = [
     image: vicod,
     description: (
       <>
-        Android / iOS application prototype to digitize bartender customers book
+        Prototype d&apos;application visant à digitaliser les cahiers de rappel des restaurants et des bars.
         <br />
-        The application won&apos;t launched because the french government has announced they will include this feature in the &quot;Tous Anti-Covid&quot; application
+        L&apos;application ne sera pas lancée, le gouvernement français ayant annoncé inclure cette fonctionnalité dans l&apos;application &quot;Tous Anti-Covid&quot;.
       </>
     ),
     showInFirst: true,
@@ -28,30 +28,30 @@ const projects = [
     title: 'marianandre.fr',
     year: 2020,
     image: me,
-    description: 'My own website made with ReactJS',
+    description: 'Mon site internet créé avec ReactJS',
   },
   {
     title: 'Eutelsat SAT.TV',
     year: 2020,
     image: sattv,
-    description: 'Internal management platform of the SAT.TV service',
+    description: 'Plateforme de gestion du service SAT.TV',
   },
   {
     title: 'Recast.AI',
     year: 2017,
     image: recastai,
-    description: 'Natural Language Processing AI and chatbots platform',
+    description: 'Inteligence artificielle en Natural Language Processing et plateforme permettant de créer des chatbots',
   },
   {
     title: 'Allbikestore.fr',
     year: 2014,
     image: allbikestore,
-    description: 'Ecommerce website for cycling products',
+    description: 'Plateforme ecommerce de produits dédiés à la pratique du cyclisme',
   },
   {
     title: 'Backend',
     image: backend,
-    description: 'And many backend and script projects usefull anytime in companies',
+    description: 'Et plusieurs applications backend et scripts permettant d\'automatiser ou d\'accélerer le traitement de la donnée',
   },
 ];
 

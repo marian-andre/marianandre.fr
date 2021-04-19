@@ -20,20 +20,21 @@ class Me extends PureComponent {
         </div>
         <div className="column mr8 ml2 section-title">
           <div className="row title-l">Marian André</div>
-          <div className="row mt1 title-caption"> Born in 1993 - Live near Paris, France</div>
-          <div className="row mt2">In 2010, I wanted to start working on my own and build a first strong profesionnal experience.</div>
-          <div className="row mt1">I decided to link my first passion to this first job: cyclism. I started to work as all-in-one assistant in a ecommerce company: Sportshop.fr.</div>
-          <div className="row mt1">After 3 years, I decided to create my own company with one of my closest friends, to provid the service I have learnt in my past job, on my own.</div>
-          <div className="row">Entrepreneurship and hard-working were the keywords of this travel, named Allbikestore.fr.</div>
-          <div className="row">Being the CTO of the company, I build from start the ecommerce website. My other roles were also to managed any technical resources of the company, taking care of orders and managing the after-sales service. For many personal reasons, we stop the journey in 2016.</div>
-          <div className="row mt1">Then, I was the first employee, as Software Engineer, of a very promising French Startup: Recast.AI.</div>
-          <div className="row">With the impulsion of a famous french startup founder, Patrick Joubert, we have created an artificial intelligence able to understand real human languages (Natural Language Processing).</div>
-          <div className="row">The chatbot world thus has come to us. In two years, we built an amazing platform, where users can build chatbots, using our own AI, for free.</div>
-          <div className="row">This successfull story caught the eye of SAP, the worldwide Cloud Software company.</div>
-          <div className="row mt1">While Recast.AI has been acquired by SAP AI in 2018, I wanted to improve in my skills. This were the opportunity to embrass the world of people management. Managing two teams of technical people (Software Engineers and Data-scientists), I have learnt many competences from the SAP management expertise.</div>
-          <div className="row mt1">Life is made of opportunity and one appears to me in 2019: join one of the world&apos;s leading satellite operator: Eutelsat, with one mission: digitize services.</div>
-          <div className="row">Leaving the world of management, non-definitively, I come back to my first love: the software development.</div>
-          <div className="row">From 2019, I create automated services who change people lifes. For example, Eutelsat has launched in 2020 the brand new SAT.TV service, allowing millions of people to benefits enriched EPG experience.</div>
+          <div className="row mt1 title-caption"> Né en 1993 - Près de Paris, France</div>
+          <div className="row mt2">En 2010, je souhaitais travailler pour me construire une expérience professionnelle.</div>
+          <div className="row mt1">J&apos;ai alors décidé de lier ma passion à ce premier emploi: le cyclisme. J&apos;ai commencé à travailler pour la société ecommerce Sportshop.fr, comme assistant informatique, logistique et vente.</div>
+          <div className="row mt1">Après 3 ans, j&apos;ai décidé to créer ma propre société, accompagné d&apos;un de mes plus proches amis. Nous souhaitions offrir le service que nous avions appris dans notre précédent emploi, en apportant une dimension technologique à notre projet.</div>
+          <div className="row">Entreprenariat et travailler sans compter ses heures étaient les clefs de cette aventure, appelée Allbikestore.fr</div>
+          <div className="row">Étant le CTO de l&apos;entreprise, j&apos;ai entièrement concu et développer les plateformes (front-office / back-office). Mes autres rôles dans l&apos;entreprise me permettaient de gérer le parc informatique, de m&apos;occuper de la préparation des commandes et de leur expédition, ainsi que du service après-vente. Pour des raisons personnelles, nous avons stoppé l&apos;aventure en 2016.</div>
+          <div className="row mt1">Je fus ensuite le premier employé, en étant que Software Engineer, d&apos;une startup très prometteuse: Recast.AI</div>
+          <div className="row">Avec l&apos;impulsion d&apos;un fondateur de startup bien connu en France, Patrick Joubert, nous avons créé une intelligence artificielle capable de comprendre le language humain (Natural Language Processing).</div>
+          <div className="row">Le monde du Chatbot s&apos;offrit alors à nous. En deux ans, nous avons construit une plateforme inédite, où les utilisateurs pouvaient créer des chatbots en utilisant notre intelligence artificielle, gratuitement.</div>
+          <div className="row">Cette formidable histoire a attiré l&apos;attention de SAP, l&apos;enteprise de solutions cloud mondialement connue.</div>
+          <div className="row mt1">Alors que Recast.AI fut acquis par SAP en 2018, je voulais me diversifier. Ce fut l&apos;opportunité d&apos;entrer dans le monde du management. En manageant deux équipes techniques (Software Engineers / Data-scientists), j&apos;ai bénéficié de l&apos;expertise de SAP pour mener à bien ma mission: Tech Team Manager.</div>
+          <div className="row mt1">La vie est faite d&apos;opportunités et une de celles-ci est apparue en 2019: rejoindre l&apos;un des leaders mondiaux de l&apos;opération satellite: Eutelsat, avec une mission: digitaliser les services.</div>
+          <div className="row">En quittant le monde du management, de manière non-définitive, je revenais aux sources: le développement logiciel.</div>
+          <div className="row">Depuis 2019, j&apos;ai créé des services automatisés qui ont changé la vie des utilisateurs. Par exemple, Eutelsat a lancé en 2020 le service SAT.TV, permettant à des millions d&apos;utilisateurs de bénéficier de guides de programme (EPG) enrichis.</div>
+          <div className="row">J&apos;ai aussi développé une plateforme permettant de dispatcher les messages d&apos;objets IoT, transmis par satellite.</div>
         </div>
       </div>
     );

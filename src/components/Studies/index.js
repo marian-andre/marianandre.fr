@@ -16,11 +16,11 @@ const items = [
     color: '#ffffff',
     backgroundColor: 'rgb(140, 184, 68)',
     title: 'Université de Versailles Saint-Quentin-En-Yvelines',
-    subTitle: '2 years in Computer Science Degree',
+    subTitle: '2 years en License d\'informatique',
     logo: logoUVSQ,
     description: (
       <>
-        The Computer Science degree aims to train high-level computer scientists who know the foundations and modern techniques of computer science, to make them either lead to working life, or to pursue master&apos;s studies, giving them the ability to understand easily future developments in information and communication technologies.
+        La licence d&apos;informatique permet de se former aux métiers du développement et du digital.
       </>
     ),
   },
@@ -34,23 +34,23 @@ const items = [
     description: (
       <div className="column">
         <div className="row mb1">
-          The Certificate Digital Transformation copes with this issue through lectures, testimonials from top managers from diverse companies, and several projects – the largest part of the program– that will immerse students in the various aspects of digital transformation. The Certificate is developed through the close relationship with large leading companies, as well as the collaboration of key consulting companies.
+          Le Digital Transformation Certificate m&apos; permis d&apos;aborder et de comprendre les différents aspects de la transformation digitale des entreprises, à l&apos;aide d&apos;ouvrages dédiés, de témoignages de managers de diverses entreprises et de projets concrets.
         </div>
         <div className="row">
           <div className="column column-equal">
-            <span className="title-s">Objective</span>
+            <span className="title-s">Objectifs</span>
             <br />
             <br />
-            Whatever the original training, to get the student prepared for managing the digital issues that the company he/she will enter –or advice– will face.
+            Quelque-soit le parcours de l&apos;étudiant, le certificat permet à celui-ci d&apos;être le moteur de la transformation digitale d&apos;une entreprise
           </div>
           <div className="column column-equal">
-            <span className="title-s">Principles</span>
+            <span className="title-s">Les grands principes du certificat:</span>
             <br />
             <br />
             <ul>
-              <li>Digital strategy</li>
-              <li>Digital project management</li>
-              <li>Change management</li>
+              <li>Stratégie digitale</li>
+              <li>Management de projets digitaux</li>
+              <li>Gestion du changement</li>
               <li>Consulting</li>
             </ul>
           </div>
@@ -67,10 +67,10 @@ const items = [
     logo: logo42,
     description: (
       <>
-        42 is an innovative engineering and programming college that offers rigorous, industry-leading education in a professional environment. Our program is designed to prepare students for the workplace using an instructional design that means students learn skills for the digital world and for the technology industry.
+        L&apos;école 42 est une école innovante spécialisée dans l&apos;ingénieurie et la programmation. Le programme prépare les étudiants à trouver leur place dans cette industrie, en leur apportant les connaissances nécessaires.
         <br />
         <br />
-        Our program is rigid yet flexible: certain projects are required in a particular order, while others students are free to pursue and explore. Projects range from 48 hours to 6 months, depending on their depth and complexity. Projects are corrected by peers, and students learn technical skills as well as interpersonal skills, time management, and project management.
+        Le programme est rigide mais flexible: certains projets doivent être réalisés dans un ordre particulier, tandis que les étudiants sont libres d&apos;explorer. Les projets durent de 48 heures à 6 mois, selon leur profondeur et leur complexité. Les projets sont corrigés par des pairs et les étudiants acquièrent des compétences techniques ainsi que des compétences interpersonnelles, la gestion du temps et la gestion de projet.
       </>
     ),
   },

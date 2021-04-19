@@ -16,7 +16,6 @@ import {
   faMobileAlt,
   faUsers,
   faCalendarCheck,
-  faSearchDollar,
   faBullhorn,
 } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -126,7 +125,7 @@ const groupedSkills = [
     ],
   },
   {
-    name: 'Others',
+    name: 'Cloud',
     skills: [
       {
         title: (
@@ -138,11 +137,6 @@ const groupedSkills = [
         ),
         icon: faAws,
         color: 'rgb(234, 152, 54)',
-      },
-      {
-        title: 'SEO',
-        icon: faSearchDollar,
-        color: 'rgb(76, 163, 230)',
       },
     ],
   },

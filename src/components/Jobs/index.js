@@ -19,15 +19,17 @@ const jobs = [
     name: '2010-2013 - Sportshop.fr',
     color: '#ffffff',
     backgroundColor: 'rgb(47, 107, 171)',
-    title: 'IT, Sales and Logistic Assistant',
-    subTitle: 'French e-commerce website dedicated to running, biking and trekking products',
+    title: 'Assistant informatique, logistique et vente',
+    subTitle: 'Plateforme ecommerce française dédiée aux produits running, trekking et cyclistes',
     logo: logoSportshop,
     description: (
       <>
-        While studying in high school, I wanted to start working to gain my first professional experience and make a living on my own.
+        Tout en étant étudiant, je souhaitais commencer à travailler et me forger une expérience professionnelle.
         <br />
         <br />
-        Linking one of my passions, cycling, to work, I was an IT, sales and logistics assistant at Sportshop.fr. Pioneer in the ecommerce sector of running, cycling and trekking items, Sportshop.fr offered me the opportunity to occupy several positions and to discover lots of jobs: Store salesman, remote salesman, after-sales service agent, customer advisor, order picker and web developer. In 3 years, I was able to discover a multitude of trades.
+        Liant ma passion pour le cyclisme à ce premier emploi, je fût assistant informatique, logistique et vente chez Sportshop.fr.
+        <br />
+        Pionnier dans le secteur du ecommerce dédié aux articles de runnings, de trekking et de cyclisme, Sportshop.fr m&apos;offert l&apos;opportunité d&apos;occuper plusieurs postes et de découvrir plusieurs emplois: vendeur en magasin, opérateur de SAV, préparateur de commande et développeur web.
       </>
     ),
   },
@@ -35,26 +37,26 @@ const jobs = [
     name: '2013-2016 - Allbikestore.fr',
     color: '#ffffff',
     backgroundColor: '#0034b4',
-    title: 'Co-founder & CTO',
-    subTitle: 'French e-commerce website dedicated to biking products',
+    title: 'Co-fondateur & CTO',
+    subTitle: 'Plateforme ecommerce dédiée aux produits cyclistes',
     logo: logoAllbikestore,
     description: (
       <>
-        With the experience brought by my first job, I decided, with one of my closest friends, to embark on the adventure of entrepreneurship.
+        Avec l&apos;expérience apportée par mon premier emploi, j&apos;ai décidé, avec l&apos;un de mes plus proches amis, d&apos;embarquer dans l&apos;aventure de l&apos;entreprenariat.
         <br />
         <br />
-        Linking this desire and our common passion for cycling, we then launched our own company: Allbikestore.fr
+        Liant notre vision et notre passion commune du cyclisme, nous avons alors lancé notre société: Allbikestore.fr
         <br />
         <br />
-        We specialized our products catalog on items unknown in France, high-tech items and items in high demand by cyclists.
+        Nous avons basé notre catalogue produits sur des objets inconnus en France, high-tech ou à forte demande.
         <br />
         <br />
-        My roles in the company were:
+        En tant que CTO, mes rôles dans l&apos;enteprise étaient:
         <br />
         <ul>
-          <li>Taking charge of all technical interfaces (front-office / back-office websites) and logistics (order preparation and shipping softwares)</li>
-          <li>Preparation and shipping of orders</li>
-          <li>After-sales service</li>
+          <li>La gestion de toute l&apos;infrastructure technique (sites Front-office / Back-Office) et logistique (logiciel de préparation de commandes et d&apos;expédition)</li>
+          <li>La préparation et l&apos;expédition des commandes</li>
+          <li>La gestion du service après-vente</li>
         </ul>
       </>
     ),
@@ -63,10 +65,21 @@ const jobs = [
     name: '2016-2018 - Recast.AI',
     backgroundColor: 'rgb(245, 195, 75)',
     title: 'Full Stack Engineer',
-    subTitle: 'Successfull startup building an AI technology and chatbots. Acquire by SAP in 2016',
+    subTitle: 'Startup à succès permettant de créer des chatbots avec de l\'intelligence artificielle. Acquise par SAP en 2016.',
     logo: logoRecast,
     description: (
       <>
+        Arrivé en early-stage dans la startup Recast.AI
+        <br />
+        Mise en place de l&apos;infrastructure logicielle de la plateforme NLP
+        <br />
+        Développement des fonctionnalités B2B et B2C
+        <br />
+        Migrations d’infrastructures cloud (Microsoft Azure, Amazon Web Services)
+        <br />
+        Réalisation de projets client chatbot (SFR, Bouygues Telecom, EDF, Europ Assistance, AirRefund)
+        <br />
+        Gestion des plannings de développement et de la livraison des fonctionnalités
       </>
     ),
   },
@@ -75,10 +88,23 @@ const jobs = [
     color: '#ffffff',
     backgroundColor: 'rgb(69, 160, 223)',
     title: 'Senior Software Engineer & Team Manager',
-    subTitle: 'Managing teams of developer and data-scientist to improve the AI chatbot technology',
+    subTitle: 'Manager de deux équipes de développeurs et de data-scientists',
     logo: logoSAP,
     description: (
       <>
+        Rachat de Recast.AI par SAP
+        <br />
+        Management d&apos;équipes de développeurs et de data-scientists:
+        <br />
+        <ul>
+          <li>People management</li>
+          <li>Animation des équipes (Scrum Master)</li>
+          <li>Gestion de la livraison des fonctionnalités</li>
+          <li>Gestion des plannings de développement</li>
+          <li>Garant de la qualité des livrables</li>
+        </ul>
+        <br />
+        Développement de fonctionnalités à fortes valeurs ajoutées sur l&apos;ensemble de la plateforme.
       </>
     ),
   },
@@ -87,10 +113,25 @@ const jobs = [
     color: '#ffffff',
     backgroundColor: 'rgb(51, 125, 181)',
     title: 'Senior Software Engineer',
-    subTitle: 'Create a digital transformation impulse and digitize usefull services',
+    subTitle: 'Digitaliser les services à forte valeur ajoutée',
     logo: logoEutelsat,
     description: (
       <>
+        Création de services innovants au sein de la Direction des Nouvelles Applications:
+        <br />
+        <br />
+        Création et gestion de l’environnement technique de la marque SAT.TV (backends, pipeline de guide de programmes, interfaces de gestion opérationnelle), en relation direct avec les équipes produits. Des fournisseurs de guide de programmes EPG à la box satellite de l&apos;utilisateur, le système gère automatiquement la diffusion des metadata, permettant la construction d’une interface inédite et exclusive pour les utilisateurs finaux. Le produit SAT.TV a reçu le prix «Outstanding Initiative From a Satellite Company» en 2021
+        <br />
+        <br />
+        Création de l&apos;environnement technique du projet Eutelsat Low Orbit (ELO): Apporter la connectivité par satellite à l&apos;IOT. De l’émission des messages par les terminaux IOT à la livraison de ceux-ci aux prestataires (dont Sigfox), le produit ELO permet de s&apos;affranchir des zones blanches pour des projets ambitieux: tracking de troupeaux animaliers, senseurs météorologiques dans les exploitations agricoles ou encore géolocalisation
+        <br />
+        <br />
+        Création et gestion de l&apos;infrastructure Cloud AWS d&apos;Eutelsat:
+        <ul>
+          <li>Mise en place de l&apos;architecture Amazon Web Services</li>
+          <li>Gestion des ressources Cloud</li>
+          <li>Initiation et formation des équipes</li>
+        </ul>
       </>
     ),
   },
@@ -98,11 +139,11 @@ const jobs = [
 
 const primaryJobs = [
   {
-    jobTitle: 'IT Assistant',
+    jobTitle: 'Assistant IT',
     color: '#eb872a',
   },
   {
-    jobTitle: 'Co-founder & CTO',
+    jobTitle: 'Co-fondateur & CTO',
     color: '#d63333',
   },
   {},
@@ -115,7 +156,7 @@ const primaryJobs = [
 
 const secondaryJobs = [
   {
-    jobTitle: 'Sales Assistant',
+    jobTitle: 'Assistant Vente',
     color: '#1aad44',
   },
   {
